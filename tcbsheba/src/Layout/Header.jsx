@@ -40,7 +40,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="border border-[#ddd] bg-[#0c3a30] dark:text-white duration-200 z-40 fixed w-full mt-0">
+    <div className="border pt-0 border-[#ddd] bg-[#0c3a30] dark:text-white duration-200 z-40 fixed w-full mt-0">
       {/* upper Navbar */}
       <div className="bg-primary/40 h-16 py-2">
         <div className="container mx-auto flex justify-between items-center px-4 md:px-0">

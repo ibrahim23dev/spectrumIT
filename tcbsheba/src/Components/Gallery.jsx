@@ -21,7 +21,7 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto py-2 px-4">
-      <h2 className="text-2xl md:text-3xl lg:text-[37px] mt-20 font-bold text-center mb-4">
+      <h2 className="text-2xl md:text-3xl lg:text-[37px] mt-20 font-bold text-center mb-4 pt-14">
         ফটোগ্যালারি
       </h2>
       <p className="text-center mb-8">আমাদের সকল কার্যক্রম সম্পর্কিত ছবি সমূহ দেখুন</p>

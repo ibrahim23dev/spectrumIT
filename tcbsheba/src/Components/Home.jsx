@@ -14,7 +14,7 @@ function App() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-[50px] items-center">
             <div className="col-span-12 lg:col-span-6 pl-10">
-              <h1 className="text-2xl lg:text-4xl font-bold mb-4">
+              <h1 className="text-2xl lg:text-3xl font-bold mb-4">
                 ট্রেডিং কর্পোরেশন অব বাংলাদেশ (টিসিবি)
               </h1>
               <p className="font-semibold mb-4">
@@ -63,11 +63,11 @@ function App() {
       <Faqs />
 
       <section>
-        <div className="min-h-screen bg-gray-100">
+        <div className="min-h-screen bg-gray-100 ">
           <Gallery />
         </div>
       </section>
-      <section>
+      <section className="min-h-screen">
         <VideoGallery />
       </section>
       <section className="pt-10 pb-10">

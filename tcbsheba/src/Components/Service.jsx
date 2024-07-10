@@ -39,8 +39,8 @@ const Service = () => {
               data-aos="fade-up"
               data-aos-delay={`${100 * (index + 1)}`}
             >
-              <div className="w-[40px] md:w-[50px] mb-[20px] md:mb-[30px]">
-                <img src={service.icon} alt="" />
+              <div className="flex items-center justify-center w-[70px] h-[70px] md:w-[80px] md:h-[80px] mb-[20px] md:mb-[30px] bg-[#0c3a30] rounded-full">
+                <img src={service.icon} alt="" className="w-[40px] md:w-[50px] filter invert" />
               </div>
               <h4 className="mb-[10px] md:mb-[20px] text-[20px] md:text-[26px] lg:text-[34px] font-semibold tracking-tight text-gray-900">
                 {service.title}

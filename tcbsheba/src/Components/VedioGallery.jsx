@@ -36,7 +36,7 @@ function VideoGallery() {
   }, []);
 
   return (
-    <div className="bg-vedio-image py-10">
+    <div className="bg-vedio-image py-16">
       <div className="container mx-auto text-center">
         <h2
           className="text-[28px] sm:text-[34px] md:text-[37px] mt-14 font-bold mb-6 text-gray-800"
