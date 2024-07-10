@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .bg-home-image {
+  background-image: url('./assets/icons/bg.jpg');
+} 
+.bg-vedio-image {
+  background-image: url('./assets/icons/hmn11.jpg');
+} 
